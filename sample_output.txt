@@ -1,90 +1,14 @@
 ========================================
-Дата и время: Fri Oct  9 19:24:34 +07 2026
+Дата и время: Sun Oct 11 20:27:55 +07 2026
 
 --- Память ---
                total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       384Mi       6.9Gi       4.0Mi       146Mi       6.9Gi
-Swap:          2.0Gi          0B       2.0Gi
+Mem:           1.9Gi       177Mi       946Mi       0.0Ki       821Mi       1.6Gi
+Swap:             0B          0B          0B
 
 --- Диск ---
 Filesystem      Size  Used Avail Use% Mounted on
-/dev/sdd       1007G  1.3G  955G   1% /
+/dev/sda1       9.6G  1.9G  7.7G  20% /
 
 --- Нагрузка системы ---
- 19:24:34 up 10 min,  1 user,  load average: 0.00, 0.02, 0.00
-
-========================================
-Дата и время: Fri Oct  9 19:24:44 +07 2026
-
---- Память ---
-               total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       385Mi       6.9Gi       4.0Mi       146Mi       6.9Gi
-Swap:          2.0Gi          0B       2.0Gi
-
---- Диск ---
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sdd       1007G  1.3G  955G   1% /
-
---- Нагрузка системы ---
- 19:24:44 up 10 min,  1 user,  load average: 0.16, 0.06, 0.01
-
-========================================
-Дата и время: Fri Oct  9 19:24:54 +07 2026
-
---- Память ---
-               total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       385Mi       6.9Gi       4.0Mi       146Mi       6.9Gi
-Swap:          2.0Gi          0B       2.0Gi
-
---- Диск ---
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sdd       1007G  1.3G  955G   1% /
-
---- Нагрузка системы ---
- 19:24:54 up 10 min,  1 user,  load average: 0.13, 0.05, 0.01
-
-========================================
-Дата и время: Fri Oct  9 19:25:04 +07 2026
-
---- Память ---
-               total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       386Mi       6.9Gi       4.0Mi       146Mi       6.9Gi
-Swap:          2.0Gi          0B       2.0Gi
-
---- Диск ---
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sdd       1007G  1.3G  955G   1% /
-
---- Нагрузка системы ---
- 19:25:04 up 11 min,  1 user,  load average: 0.11, 0.05, 0.01
-
-========================================
-Дата и время: Fri Oct  9 19:25:14 +07 2026
-
---- Память ---
-               total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       384Mi       6.9Gi       4.0Mi       146Mi       6.9Gi
-Swap:          2.0Gi          0B       2.0Gi
-
---- Диск ---
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sdd       1007G  1.3G  955G   1% /
-
---- Нагрузка системы ---
- 19:25:14 up 11 min,  1 user,  load average: 0.09, 0.05, 0.01
-
-========================================
-Дата и время: Fri Oct  9 19:25:24 +07 2026
-
---- Память ---
-               total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       384Mi       6.9Gi       4.0Mi       146Mi       6.9Gi
-Swap:          2.0Gi          0B       2.0Gi
-
---- Диск ---
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sdd       1007G  1.3G  955G   1% /
-
---- Нагрузка системы ---
- 19:25:24 up 11 min,  1 user,  load average: 0.16, 0.06, 0.01
-
+ 20:27:55 up  1:57,  1 user,  load average: 0.00, 0.00, 0.00
