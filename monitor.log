@@ -88,3 +88,123 @@ Filesystem      Size  Used Avail Use% Mounted on
 --- Нагрузка системы ---
  19:25:24 up 11 min,  1 user,  load average: 0.16, 0.06, 0.01
 
+========================================
+Дата и время: Sun Oct 11 20:45:10 +07 2026
+
+--- Память ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       467Mi       6.6Gi       4.0Mi       451Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+--- Диск ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1% /
+
+--- Нагрузка системы ---
+ 20:45:10 up  5:21,  1 user,  load average: 0.00, 0.02, 0.00
+
+========================================
+Дата и время: Sun Oct 11 20:45:20 +07 2026
+
+--- Память ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       467Mi       6.6Gi       4.0Mi       451Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+--- Диск ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1% /
+
+--- Нагрузка системы ---
+ 20:45:20 up  5:22,  1 user,  load average: 0.00, 0.02, 0.00
+
+========================================
+Дата и время: Sun Oct 11 20:45:28 +07 2026
+
+--- Память ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       467Mi       6.6Gi       4.0Mi       451Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+--- Диск ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1% /
+
+--- Нагрузка системы ---
+ 20:45:28 up  5:22,  1 user,  load average: 0.00, 0.02, 0.00
+
+========================================
+Дата и время: Sun Oct 11 20:45:38 +07 2026
+
+--- Память ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       468Mi       6.6Gi       4.0Mi       451Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+--- Диск ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1% /
+
+--- Нагрузка системы ---
+ 20:45:38 up  5:22,  1 user,  load average: 0.00, 0.02, 0.00
+
+========================================
+Дата и время: Sun Oct 11 20:45:48 +07 2026
+
+--- Память ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       468Mi       6.6Gi       4.0Mi       451Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+--- Диск ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1% /
+
+--- Нагрузка системы ---
+ 20:45:48 up  5:22,  1 user,  load average: 0.00, 0.01, 0.00
+
+========================================
+Дата и время: Sun Oct 11 20:45:58 +07 2026
+
+--- Память ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       470Mi       6.6Gi       4.0Mi       451Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+--- Диск ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1% /
+
+--- Нагрузка системы ---
+ 20:45:58 up  5:22,  1 user,  load average: 0.00, 0.01, 0.00
+
+========================================
+Дата и время: Sun Oct 11 20:46:08 +07 2026
+
+--- Память ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       470Mi       6.6Gi       4.0Mi       451Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+--- Диск ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1% /
+
+--- Нагрузка системы ---
+ 20:46:08 up  5:22,  1 user,  load average: 0.00, 0.01, 0.00
+
+========================================
+Дата и время: Sun Oct 11 20:46:15 +07 2026
+
+--- Память ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       469Mi       6.6Gi       4.0Mi       451Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+--- Диск ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1% /
+
+--- Нагрузка системы ---
+ 20:46:15 up  5:23,  1 user,  load average: 0.00, 0.01, 0.00
+
