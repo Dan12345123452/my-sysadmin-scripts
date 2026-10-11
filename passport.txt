@@ -45,6 +45,62 @@
 
 Показывает первые 20 строк списка процессов, включая пользователя, PID и использование ресурсов.
 
+## 10. Состояние процессов и ресурсов
+
+**Команда:** `top -bn1 | head -20`
+
+Показывает текущую нагрузку на процессор, использование оперативной памяти и список запущенных процессов.
+
+**Результат выполнения:**
+```text
+top - 20:04:09 up 1:33, 1 user, load average: 0.07, 0.02, 0.00
+Tasks: 96 total, 1 running, 95 sleeping, 0 stopped, 0 zombie
+%Cpu(s): 0.0 us, 0.0 sy, 0.0 ni, 100.0 id, 0.0 wa, 0.0 hi, 0.0 si, 0.0 st
+MiB Mem : 1944.8 total, 946.6 free, 177.0 used, 821.2 buff/cache
+MiB Swap: 0.0 total, 0.0 free, 0.0 used. 1608.8 avail Mem
+```
+
+## 11. Информация об оперативной памяти
+
+**Команда:** `cat /proc/meminfo | head -10`
+
+Показывает основные параметры оперативной памяти Linux в килобайтах.
+
+**Результат выполнения:**
+```text
+MemTotal:        1991504 kB
+MemFree:          969356 kB
+MemAvailable:    1647460 kB
+Buffers:           20336 kB
+Cached:           777748 kB
+SwapCached:            0 kB
+Active:           464772 kB
+Inactive:         388404 kB
+Active(anon):        932 kB
+Inactive(anon):    64216 kB
+```
+
+## 12. Содержимое каталога /etc
+
+**Команда:** `ls -l /etc/ | head -15`
+
+Показывает первые 15 строк подробного списка файлов и каталогов конфигурации Linux.
+
+**Результат выполнения:**
+```text
+total 828
+drwxr-xr-x 2 root root 4096 Oct 4 17:54 PackageKit
+drwxr-xr-x 4 root root 4096 Oct 4 17:53 X11
+-rw-r--r-- 1 root root 3028 Oct 4 17:52 adduser.conf
+drwxr-xr-x 2 root root 4096 Oct 4 17:53 alternatives
+drwxr-xr-x 3 root root 4096 Oct 4 17:53 apparmor
+drwxr-xr-x 8 root root 4096 Oct 4 17:54 apparmor.d
+drwxr-xr-x 8 root root 4096 Oct 4 17:54 apt
+-rw-r--r-- 1 root root 2319 Jan 6 2022 bash.bashrc
+-rw-r--r-- 1 root root 45 Nov 11 2021 bash_completion
+-rw-r--r-- 1 root root 367 Dec 16 2020 bindresvport.blacklist
+```
+
 ## Заключение
 Команды использованы для сбора базовой информации о системе Ubuntu 22.04.5 LTS, её пользователе, ресурсах, дисках и запущенных процессах.
 
