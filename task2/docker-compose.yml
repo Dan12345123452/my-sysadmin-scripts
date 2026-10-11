@@ -1,0 +1,11 @@
+services:
+  monitor:
+    image: sysadmin-monitor:1.0
+    container_name: sysadmin-monitor
+    restart: unless-stopped
+    volumes:
+      - monitor-data:/app
+
+volumes:
+  monitor-data:
+    external: true
