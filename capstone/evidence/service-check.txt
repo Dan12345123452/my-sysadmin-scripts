@@ -1,0 +1,37 @@
+=== NGINX CONFIG TEST ===
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+=== HTTPS RESPONSE ===
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    42    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 12 Oct 2026 11:56:55 GMT
+Content-Type: text/html
+Content-Length: 42
+Connection: keep-alive
+Last-Modified: Mon, 12 Oct 2026 11:09:01 GMT
+
+
+=== NGINX STATUS ===
+active
+
+=== BACKEND STATUS ===
+active
+
+=== BACKEND ENABLED ===
+enabled
+
+=== BACKEND HTTP RESPONSE ===
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    42    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.10.12
+Date: Mon, 12 Oct 2026 11:56:55 GMT
+Content-type: text/html
+Content-Length: 42
+Last-Modified: Mon, 12 Oct 2026 11:09:01 GMT
+
