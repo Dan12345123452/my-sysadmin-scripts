@@ -1,0 +1,24 @@
+=== Docker container ===
+CONTAINER ID   IMAGE                  COMMAND                  CREATED        STATUS                    PORTS     NAMES
+e5f1f89b8fd4   sysadmin-monitor:1.0   "/usr/local/bin/scri…"   21 hours ago   Up 21 hours                         sysadmin-monitor
+735fdb6c86e2   hello-world            "/hello"                 21 hours ago   Exited (0) 21 hours ago             intelligent_hertz
+
+=== Docker volume ===
+DRIVER    VOLUME NAME
+local     monitor-data
+
+=== Container log ===
+overlay         9.6G  2.5G  7.1G  27% /
+
+--- Нагрузка системы ---
+ 11:17:00 up  4:53,  0 users,  load average: 0.28, 0.14, 0.10
+
+
+=== HTTPS reverse proxy ===
+<h1>Sysadmin project: backend works!</h1>
+
+=== Backend service ===
+active
+
+=== Nginx service ===
+active

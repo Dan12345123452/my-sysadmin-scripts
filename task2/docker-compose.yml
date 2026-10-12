@@ -1,5 +1,6 @@
 services:
   monitor:
+    build: .
     image: sysadmin-monitor:1.0
     container_name: sysadmin-monitor
     restart: unless-stopped
