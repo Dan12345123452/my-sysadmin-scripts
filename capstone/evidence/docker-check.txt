@@ -1,0 +1,101 @@
+=== DOCKER IMAGE ===
+WARNING: This output is designed for human readability. For machine-readable output, please use --format.
+IMAGE                  ID             DISK USAGE   CONTENT SIZE   EXTRA
+sysadmin-monitor:1.0   77516bd3182c        118MB         29.8MB        
+
+=== RUNNING CONTAINERS ===
+CONTAINER ID   IMAGE          COMMAND                  CREATED        STATUS        PORTS     NAMES
+e5f1f89b8fd4   07b2595ff302   "/usr/local/bin/scri…"   21 hours ago   Up 21 hours             sysadmin-monitor
+
+=== MONITOR LOG ===
+Mem:           1.9Gi       256Mi       167Mi       1.0Mi       1.5Gi       1.5Gi
+Swap:             0B          0B          0B
+
+--- Диск ---
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         9.6G  2.5G  7.1G  27% /
+
+--- Нагрузка системы ---
+ 11:52:54 up  5:29,  0 users,  load average: 0.02, 0.08, 0.07
+
+
+=== COMPOSE CONFIG ===
+name: task2
+services:
+  monitor:
+    build:
+      context: /home/ubuntu/sysadmin-project/task2
+      dockerfile: Dockerfile
+    container_name: sysadmin-monitor
+    image: sysadmin-monitor:1.0
+    networks:
+      default: null
+    restart: unless-stopped
+    volumes:
+      - type: volume
+        source: monitor-data
+        target: /app
+        volume: {}
+networks:
+  default:
+    name: task2_default
+volumes:
+  monitor-data:
+    name: monitor-data
+    external: true
+=== REBUILD IMAGE ===
+time="2026-10-12T18:54:36+07:00" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+#0 building with "default" instance using docker driver
+
+#1 [monitor internal] load build definition from Dockerfile
+#1 transferring dockerfile: 185B done
+#1 DONE 0.0s
+
+#2 [monitor internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.0s
+
+#3 [monitor internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [monitor 1/4] FROM docker.io/library/ubuntu:22.04@sha256:5ec03bb3441e8b0bf3b4f9cd4629a1ae763010dc3035bb8da3ae6cf026486401
+#4 resolve docker.io/library/ubuntu:22.04@sha256:5ec03bb3441e8b0bf3b4f9cd4629a1ae763010dc3035bb8da3ae6cf026486401 0.0s done
+#4 DONE 0.0s
+
+#5 [monitor internal] load build context
+#5 transferring context: 31B done
+#5 DONE 0.0s
+
+#6 [monitor 2/4] WORKDIR /app
+#6 CACHED
+
+#7 [monitor 3/4] COPY script.sh /usr/local/bin/script.sh
+#7 CACHED
+
+#8 [monitor 4/4] RUN chmod +x /usr/local/bin/script.sh
+#8 CACHED
+
+#9 [monitor] exporting to image
+#9 exporting layers done
+#9 exporting manifest sha256:751a0205a70672f71170dc20da06c926f360d11cefb90e987716576ed321f3d5 done
+#9 exporting config sha256:8dc5e23307326daeaea31382b5f865860dec2ac8135ead195352d476da8cb396 done
+#9 exporting attestation manifest sha256:9d8f644fc89f58fdb3e4640ceb3ab2def98503ab84a7e5ab746e7e4d41efb5a2 0.0s done
+#9 exporting manifest list sha256:b32bf7da22ce515265a3a54e5d0f04ff15f6ffbe81f560375f670c60c0e5bd83 0.0s done
+#9 naming to docker.io/library/sysadmin-monitor:1.0
+#9 naming to docker.io/library/sysadmin-monitor:1.0 done
+#9 unpacking to docker.io/library/sysadmin-monitor:1.0 0.0s done
+#9 DONE 0.1s
+
+#10 [monitor] resolving provenance for metadata file
+#10 DONE 0.0s
+ monitor  Built
+
+=== IMAGE DETAILS ===
+WARNING: This output is designed for human readability. For machine-readable output, please use --format.
+IMAGE                  ID             DISK USAGE   CONTENT SIZE   EXTRA
+sysadmin-monitor:1.0   b32bf7da22ce        118MB         29.8MB        
+
+=== TEMPORARY CONTAINER TEST ===
+Мониторинг запущен. Интервал: 10 секунд.
+Результаты записываются в: monitor.log
+Остановка: Ctrl+C
