@@ -1,0 +1,13 @@
+c0a485a Add capstone structure and project overview
+0ed6690 Complete task2 infrastructure lab
+50bcce8 Add separate README files for assignments
+6b9957c Organize assignments into task1 and task2
+a73fc54 Update monitoring log after script test
+4f7a9b0 Update sample output with VM data
+10c230c Complete system passport
+ec4d3f7 Add SSH and system command screenshots
+92a601c Update passport with Multipass VM data
+fcc7e30 Add system passport
+b49e8d4 Document monitoring log behavior
+e9e82d5 Improve monitoring startup message
+4061f5c Add system monitoring script and documentation
