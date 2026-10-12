@@ -35,3 +35,41 @@ Content-type: text/html
 Content-Length: 42
 Last-Modified: Mon, 12 Oct 2026 11:09:01 GMT
 
+
+=== SYSTEMD UNIT FILE ===
+# /etc/systemd/system/sysadmin-backend.service
+[Unit]
+Description=Sysadmin demo backend web server
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/sysadmin-backend
+ExecStart=/usr/bin/python3 -m http.server 8080 --bind 127.0.0.1
+Restart=on-failure
+User=www-data
+
+[Install]
+WantedBy=multi-user.target
+
+=== SYSTEMD SERVICE STATUS ===
+● sysadmin-backend.service - Sysadmin demo backend web server
+     Loaded: loaded (/etc/systemd/system/sysadmin-backend.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2026-10-12 18:10:08 +07; 49min ago
+   Main PID: 16061 (python3)
+      Tasks: 1 (limit: 2248)
+     Memory: 9.2M
+        CPU: 422ms
+     CGroup: /system.slice/sysadmin-backend.service
+             └─16061 /usr/bin/python3 -m http.server 8080 --bind 127.0.0.1
+
+Oct 12 18:10:08 sysadmin-host systemd[1]: Started Sysadmin demo backend web server.
+Oct 12 18:10:32 sysadmin-host python3[16061]: 127.0.0.1 - - [12/Oct/2026 18:10:32] "GET / HTTP/1.1" 200 -
+Oct 12 18:13:54 sysadmin-host python3[16061]: 127.0.0.1 - - [12/Oct/2026 18:13:54] "GET / HTTP/1.0" 200 -
+Oct 12 18:17:01 sysadmin-host python3[16061]: 127.0.0.1 - - [12/Oct/2026 18:17:01] "GET / HTTP/1.0" 200 -
+Oct 12 18:56:55 sysadmin-host python3[16061]: 127.0.0.1 - - [12/Oct/2026 18:56:55] "HEAD / HTTP/1.0" 200 -
+Oct 12 18:56:55 sysadmin-host python3[16061]: 127.0.0.1 - - [12/Oct/2026 18:56:55] "HEAD / HTTP/1.1" 200 -
+Oct 12 18:58:14 sysadmin-host python3[16061]: 127.0.0.1 - - [12/Oct/2026 18:58:14] "GET / HTTP/1.0" 200 -
+
+=== ENABLED AT BOOT ===
+enabled
